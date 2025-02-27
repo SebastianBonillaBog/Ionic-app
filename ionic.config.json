@@ -1,0 +1,7 @@
+{
+  "name": "Mobi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
