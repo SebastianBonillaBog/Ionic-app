@@ -1,0 +1,23 @@
+.toolbar-content{
+    background-color: rgb(167, 17, 54);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ion-title{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+app-toggle{
+//    display: flex;
+//    justify-content: end; 
+   margin: 1rem ;
+   color: rgb(251, 251, 255);
+}
+
+app-select{
+    margin: 2rem auto;
+    background-color: blue;
+}

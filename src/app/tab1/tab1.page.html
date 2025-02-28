@@ -1,8 +1,11 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar >
+    <div class="toolbar-content">
     <ion-title>
-      Tab 1
+      Home
     </ion-title>
+    <app-toggle></app-toggle>
+  </div>
   </ion-toolbar>
 </ion-header>
 
@@ -13,5 +16,8 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <app-badge></app-badge>
+  <app-card></app-card>
+
+
 </ion-content>

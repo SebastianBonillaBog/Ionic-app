@@ -1,0 +1,18 @@
+.toolbar-content{
+    background-color: rgb(9, 172, 117);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ion-title{
+    color: rgb(17, 2, 41);
+    font-weight: 400;
+}
+
+app-toggle{
+//    display: flex;
+//    justify-content: end; 
+   margin: 1rem ;
+   color: rgb(251, 251, 255);
+}
